@@ -1,0 +1,44 @@
+body{
+    background-image:url(debut_dark.png);
+    font-family: Verdana;
+}
+h1{
+    font-family: Verdana;
+    
+}
+
+.slideshow {
+    background-image:url(wall4.png);
+   width: 1200px; 
+   height: 650px;
+   margin: auto;  
+   overflow: hidden;  
+   border: 3px solid #F2F2F2; 
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}  
+.slideshow ul {  
+   width: 400%;  
+   height: 200px;  
+   padding:0; margin:0;  
+   list-style: none;  
+}  
+.slideshow li {  
+   float: left;
+   width: 1200px;
+   height: 650px;
+}
+.slideshow li img{
+    width: 380px;
+	height:250px;
+}
+.bloc_img{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+}
+.bloc_img_big{
+    width: 2000px;
+    height: 400px;
+}

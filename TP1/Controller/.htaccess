@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteBase /~vaudore/3A/TP1/Controller/
+
+#Pour le paramètre agence
+RewriteRule ^index-([0-4])\.html$ controller.php?agence=$1 [L]
+#Pour le paramètre speed
+RewriteRule ^index-([0-9]+)\.html$ controller.php?speed=$1 [L]
+#Pour les 2
+RewriteRule ^index-([0-4])-([0-9]+)\.html$ controller.php?agence=$1&speed=$2 [L]
